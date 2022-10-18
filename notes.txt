@@ -1,0 +1,12 @@
+1. Bug report - Login
+containers/Login
+change in lines 38 & 39 'employee#' to 'admin'
+
+2. Bug report - Bills
+views/BillsUI
+add sort method in line 23 - 'data.sort((b, a) => {return new Date(a.date) - new Date(b.date)})'
+
+3. Bug hunt - Bills
+containers/NewBill
+in line 22 added 'if' statement to check extension of the file
+
